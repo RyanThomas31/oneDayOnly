@@ -1,0 +1,77 @@
+@media only screen and (max-width: 426px) {
+  div.container {
+    display: grid;
+    grid-template-areas: "title " "img" "form";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    margin-left: 5%;
+    margin-right: 5%; }
+
+  .grid-title {
+    grid-area: title; }
+
+  .grid-img {
+    grid-area: img; }
+
+  .grid-form {
+    grid-area: form; }
+
+  body div.container div.grid-title h1 {
+    color: rgba(15, 15, 15, 0.9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 5%; }
+  body div.container div.grid-form {
+    margin-top: 7.5%; }
+    body div.container div.grid-form form {
+      display: grid;
+      grid-template-columns: 1fr;
+      overflow: hidden; }
+      body div.container div.grid-form form h2 {
+        color: rgba(10, 10, 10, 0.9);
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 250%; }
+      body div.container div.grid-form form p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(17, 17, 17, 0.9);
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 110%; }
+      body div.container div.grid-form form input {
+        padding: 3%;
+        margin-top: 2%;
+        width: 100%;
+        margin-left: 0;
+        background-color: rgba(14, 13, 13, 0.2);
+        border: none;
+        outline: none; }
+      body div.container div.grid-form form input::placeholder {
+        color: rgba(8, 8, 8, 0.5); }
+      body div.container div.grid-form form button {
+        border: none;
+        outline: none;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 2%;
+        padding: 2%;
+        color: white;
+        background-color: rgba(15, 15, 15, 0.65); }
+      body div.container div.grid-form form a {
+        text-align: center;
+        margin-top: 4%;
+        color: rgba(48, 48, 48, 0.8);
+        width: 64%;
+        margin-left: 20%;
+        font-size: 85%;
+        text-decoration: underline;
+        padding: 1%;
+        text-underline-position: under; }
+  body div.container div.grid-img {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(48, 48, 48, 0.2); } }
+
+/*# sourceMappingURL=index_mobile.css.map */
